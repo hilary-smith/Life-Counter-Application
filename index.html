@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <title>Life Counter App</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="titleText" class="containers">
+            <h1 id="h1">Life Counters</h1>
+            <h2 id="h2">Magic: The Gathering</h2>
+        </div>
+        <div id="pictureDiv" class="containers">
+            <img src="magic.jpg" alt="picture of Magic the Gathering Cards" id="picture" width="350">
+        </div>
+        <div id="controls" class="containers">
+            <div id="playerOne" class="players">
+                <table class="tables">
+                    <th>
+                        <h3 id="p1Name" class="names">Player One</h3>
+                    </th>
+                    <tr>
+                        <td><span id="p1Score" class="totals"></span></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p1Remove" class="plusOrMinusOne">-1</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p1Add" class="plusOrMinusOne">+1</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p1Color" class="changeColor"><span class="chooseColor">Color</span></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="playerTwo" class="players">
+                <table class="tables">
+                    <th>
+                        <h3 id="p2Name" class="names">Player Two</h3>
+                    </th>
+                    <tr>
+                        <td><span id="p2Score" class="totals">40</span></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p2Remove" class="plusOrMinusOne">-1</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p2Add" class="plusOrMinusOne">+1</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p2Color" class="changeColor"><span class="chooseColor">Color</span></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="playerThree" class="players">
+                <table class="tables">
+                    <th>
+                        <h3 id="p3Name" class="names">Player Three</h3>
+                    </th>
+                    <tr>
+                        <td><span id="p3Score" class="totals">40</span></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p3Remove" class="plusOrMinusOne">-1</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p3Add" class="plusOrMinusOne">+1</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p3Color" class="changeColor"><span class="chooseColor">Color</span></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div id="playerFour" class="players">
+                <table class="tables">
+                    <th>
+                        <h3 id="p4Name" class="names">Player Four</h3>
+                    </th>
+                    <tr>
+                        <td><span id="p4Score" class="totals">40</span></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p4Remove" class="plusOrMinusOne">-1</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p4Add" class="plusOrMinusOne">+1</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="p4Color" class="changeColor"><span class="chooseColor">Color</span></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="textDiv" class="containers">
+            <p id="instructions">Use the buttons to keep track of life totals.</p>
+        </div>
+        <button id="reset">Reset</button>
+
+        <div id="creditDiv" class="containers">
+            <p id="credit">A Javascript Application created by Hilary Smith</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
